@@ -1,0 +1,15 @@
+debug: true
+spring:
+  datasource:
+#    url: jdbc:mysql://localhost:3306/research?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8
+#    username: root
+#    password: 123456
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://118.126.116.39:3306/research?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8
+      username: root
+      password: Qq@75213155
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+  thymeleaf:
+    cache: false

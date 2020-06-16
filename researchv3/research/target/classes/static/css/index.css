@@ -1,0 +1,268 @@
+body{
+    background-color:#F3F6FA;
+    font-size: 12px;
+    font-family: "微软雅黑","Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    word-break: break-all;
+}
+#jqContent{
+    width: 920px;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+.box{
+    box-shadow: 0px 1px 6px 0px rgba(205,220,245,1);
+    
+    background: white;
+    width: 920px;
+    margin: 0 auto;   
+}
+.survey {
+    width: 780px;
+    line-height: 20px;
+    word-wrap: break-word;
+    padding: 0;
+}
+.surveyhead {
+    line-height: 20px;
+    text-align: center;
+    width: 96%;
+    padding: 40px 2% 30px;
+}
+.surveycontent {
+    margin: 0;
+    width: 100%;
+}
+.surveyhead h1, .bluefont-16px {
+    color: #5A83E5;
+}
+.surveyhead h1 {
+    font-size: 24px !important;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 0;
+    padding: 15px 0;
+    line-height: 30px;
+}
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    /* border-width: 2px; */
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+.div_question {
+    border: 2px solid white;
+    padding: 4px;
+    clear: both;
+    margin: 2px auto 10px;
+    width: 96%;
+    height: auto;
+}
+.div_title_question_all {
+    padding-top: 2px;
+    font-size: 15px;
+    color: #444444;
+    font-weight: bold;
+    height: auto;
+    line-height: 20px;
+    position: relative;
+}
+.div_table_radio_question {
+    clear: both;
+    /* padding-top: 5px; */
+    padding-left: 24px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #EFEFEF;
+    font-size: 15px;
+    font-weight: normal; 
+    color: #333333;
+    _padding-left: 27px;
+}
+.help-block{
+    color:red;
+    display:inline;
+    font-size: 12px;
+    margin-left:10px;
+    /*display:none;*/
+}
+span.nullspan{
+    font-size: 16px;
+}
+span.req {
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: 3px;
+    left: -10px;
+
+}
+.div_table_clear_top {
+    clear: both;
+    margin-top: 4px;
+}
+.div_table_radio_question ul {
+    clear: both;
+}
+ul, li, p, form, img {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border: none;
+}
+.ulradiocheck li {
+    line-height: 30px;
+    position: relative;
+}
+
+.div_table_radio_question li {
+    float: left;
+    list-style-type: none;
+    margin-bottom: 2px;
+}
+a, a:link, a:active {
+    color: #075DB3;
+    text-decoration: none;
+}
+.jqRadio {
+    /* background: transparent url(/images/jqradio114.png) no-repeat;
+    _background: transparent url(/images/jqradio114.gif) no-repeat; */
+    vertical-align: middle;
+    height: 16px;
+    width: 18px;
+    _font-size: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+}
+.ulradiocheck li input {
+    /*position: absolute;*/
+    /*left:20px;*/
+    top: 6px;
+    cursor: pointer;
+}
+label{
+    padding-left: 0px !important;
+}
+.div_table_radio_question li label, .div_table_radio_question li input, .div_table_radio_question td input {
+    cursor: pointer;
+}
+input, button {
+    font-family: "微软雅黑","Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: 12px;
+}
+.errorMessage {
+    color: Red;
+    margin-left: 20px;
+    height: 20px;
+}
+.infor{
+    display: inline-block;
+    width:40%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-control{
+    display: inline-block;
+    float: left;
+
+}
+.rightdiv{
+    float:right;
+    margin-right:20px;
+    position: relative;
+}
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+input.submitbutton {
+    border: 1px solid transparent;
+    background: #5A83E5;
+    outline: none;
+    display: inline-block;
+    line-height: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    overflow: visible;
+}
+#footercss {
+    width: 920px;
+    margin: 0 auto;
+    background: white;
+    height: 20px;
+}
+.forminfo span.req{
+    position: relative;
+    top: 3px;
+    left: -10px;
+}
+
+
+/*result.html*/
+/* 第二个页面 */
+
+#container {
+    text-align: left;
+    width: 690px;
+    margin: 180px auto 0;
+    padding: 0;
+    background: #fff;
+
+}
+.colorGray {
+    color: #8C8C8C;
+    padding:32px 50px 0 50px;
+
+}
+table.colorGray td{
+    font-size: 14px;
+}
+table.colorGray caption {
+    text-align: center;
+    margin-top:32px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+table.colorGray th{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+table.colorGray>thead>tr>td{
+     border-top: 0px;
+}
+
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测评结果</title>
+    <script type="text/javascript" th:src="@{js/jquery-1.9.1.min.js}"></script>
+
+    <script type="text/javascript" th:src="@{js/moment.js}"></script>
+    <script type="text/javascript" th:src="@{js/index.js}"></script>
+    <!-- 使常规html文件变成了一个使用了bootstrap的模板 -->
+    <link rel="stylesheet" th:href="@{css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{css/index.css}">
+</head>
+<style>
+</style>
+<body style="background:#eef9ff;">
+
+<div id="container" style="padding-bottom: 15px;">
+    <div style="text-align: center;margin:auto;">
+        <table class="table table-striped colorGray">
+            <caption  style="font-size:16px;font-weight: bold;">孩子人格类型测评结果</caption >
+            <tr>
+                <th>人格类型</th>
+                <th>符合该类型的条数</th>
+            </tr>
+            <tr th:each="entry:${msg}">
+                <td th:text="${entry.key}"></td>
+                <td th:text="${entry.value}"></td>
+            </tr>
+
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
